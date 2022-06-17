@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  background-image: url("./images/image-ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner > h1 {
+  color: #fff;
+}
+
+.section-icons {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-icon {
+  text-align: center;
+}
+
+.icon {
+  font-size: 80px;
+  color: dodgerblue;
+}
+
+.section-content {
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.container-text {
+  width: 50vw;
+  padding: 50px;
+}
+
+.image {
+  width: 50vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url("./images/image1.jpg");
+}
+
+.image2 {
+  background-image: url("./images/image2.jpg");
+}
+
+.image3 {
+  background-image: url("./images/image3.jpg");
+}
+
+.banner-footer {
+  background-image: url("./images/image-ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-footer > h1 {
+  color: #fff;
+}
+
+.icons-social-midia {
+  font-size: 30px;
+  color: dodgerblue;
+}
+
+footer {
+  width: 100vw;
+  height: 40vh;
+  background-color: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  display: inline-flex;
+  margin: 10px;
+}
+
+small {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: dodgerblue;
+}
